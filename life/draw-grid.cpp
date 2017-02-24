@@ -1,11 +1,19 @@
 #include <iostream>
 
-
+int height = 30;
+int width = 30;	
+int anotherFunction()
+{
+	//code goes here
+	for(int i = 0; i < 100; i ++)
+	{
+			  std::cout << i << "\n";
+	}
+	return 0;
+}
 
 int main()
 {
-	int height = 30;
-	int width = 30;	
 	int grid[width][height];
 
 	for(int i = 0; i < height; i ++)
@@ -17,6 +25,6 @@ int main()
 		}
 		std::cout << "\n"; 
 	}
-
+anotherFunction();
 return 0;	
 }
